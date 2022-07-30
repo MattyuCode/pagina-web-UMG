@@ -644,11 +644,79 @@ footer .matt-style strong {
         margin-top: 30px;
         width: 100%;
     }
+
+    .sobre .contenidos {
+        display: block;
+    }
+
+    .contenidos .col-md-4 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .contenidos .col-md-8 {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    #vision {
+        height: auto;
+    }
+
+    #mision {
+        height: auto;
+    }
+
 }
 
-@media screen and (max-width:650px) {
+@media screen and (min-width:590px) and (max-width:800px) {
+    #vision {
+        height: auto;
+    }
+
+    #mision {
+        height: auto;
+    }
+
+    .sobre .col-md-8 {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .contact .container {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:390px) and (max-width:550px) {
+
     .navbar {
         background: rgb(11, 66, 105);
         transition: background 0.5s;
+    }
+
+    .container .contactInfo {
+        width: 100%;
+    }
+
+
+    .sobre .col-md-8 {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .contact .container {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+
+    #vision {
+        height: auto;
+    }
+
+    #mision {
+        height: auto;
     }
 }
